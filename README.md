@@ -6,9 +6,22 @@ This is a project to figure out how to create a course generator and play with s
 
 The first part of this app will just be the user course view
 
-### Wireframes
+## Wireframes
 
 ![Alt Text for the Image](./public/wireframe.png)
+
+## FSD Architecture
+
+This project utilizes `Feature Sliced Design (FSD)` architecture
+
+This approach organizes the project by functional areas (features) rather than solely by layers. This structure helps prevent unchecked growth in global directories (e.g., components or UI in modular architecture) and ensures a clear separation of responsibilities across components, modules, and layers.
+
+* **Pages:** At the top level are the application's pages, representing the main views displayed to users.
+* **Features/Widgets:** Below the pages are the core functional blocks (features or widgets) that define the page's primary functionality, ensuring they are manageable and self-contained.
+* **Entities:** Beneath the feature modules are entities, constructed from reusable UI components provided by the "Shared" layer.
+* **Shared:** The foundational layer contains shared UI components that can be utilized across various parts of the application.
+
+Additional info can be found here: <https://feature-sliced.design/>
 
 ## Starting App Locally
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Toggle } from "./components/toggle";
+import { Toggle } from "../shared/ui/toggle";
 
 export default function Home() {
   return (
