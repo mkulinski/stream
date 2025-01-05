@@ -1,9 +1,13 @@
 # Course Force
 
+## About
+
 This is a project to figure out how to create a course generator and play with some AI features
 
 The first part of this app will just be the user course view
-#### Wireframes:
+
+### Wireframes
+
 ![Alt Text for the Image](./public/wireframe.png)
 
 ## Starting App Locally
