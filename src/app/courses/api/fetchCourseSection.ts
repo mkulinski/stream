@@ -16,7 +16,7 @@ export type SectionType = {
 }
 
 type FetchSectionReturnDataType = {
-    json: () => SectionType
+  json: () => SectionType
 }
 
 const fetchSectionReturnMockData = {
@@ -41,7 +41,7 @@ export const fetchSection = ({ courseId, sectionId }: FetchSectionProps): Promis
     })
 }
 
-export async function getSectionData({courseId, courseSectionId}: { courseId: string, courseSectionId: string}) {
+export const getSectionData = async ({courseId, courseSectionId}: { courseId: string, courseSectionId: string}) => {
     // Fetch data (e.g., from an API or database)
     const courseData = await fetchSection({ courseId, sectionId: courseSectionId })
     .then(res => res.json());
