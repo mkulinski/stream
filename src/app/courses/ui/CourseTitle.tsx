@@ -1,7 +1,4 @@
-export const CourseTitle = ({
-	courseTitleText,
-}: {
-	courseTitleText: string;
-}) => {
-	return <h1 className="font-semibold">{courseTitleText}</h1>;
+export const CourseTitle = () => {
+	const getCourseTitle = "Course Title";
+	return <h1 className="font-semibold">{getCourseTitle}</h1>;
 };
