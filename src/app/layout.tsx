@@ -31,8 +31,8 @@ export default function RootLayout({
 				className={`bg-white text-black dark:bg-black dark:text-white ${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
 				<div className="min-h-screen flex flex-col">
-					<header className="bg-blue-500 text-white p-4 flex flex-row justify-between">
-						<h1 className="text-xl">Course Force</h1>
+					<header className="bg-blue-500 text-white pl-4 flex flex-row justify-between items-center">
+						<h1 className="text-xl pl-4">Course Force</h1>
 						<Navbar />
 					</header>
 
