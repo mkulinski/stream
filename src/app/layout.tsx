@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/features/Navbar";
-import { CourseTitle } from "./courses/ui/CourseTitle";
 import Footer from "@/features/Footer";
 
 const geistSans = Geist({
@@ -35,17 +34,7 @@ export default function RootLayout({
 						<h1 className="text-xl pl-4">Course Force</h1>
 						<Navbar />
 					</header>
-
-					<main className="flex-grow">
-						<div className="grid grid-cols-3 gap-4">
-							<div className="bg-gray-100 p-4 rounded shadow">
-								<CourseTitle />
-							</div>
-							<div className="col-span-2 bg-white p-4 rounded shadow">
-								{children}
-							</div>
-						</div>
-					</main>
+					<main className="flex-grow">{children}</main>
 					<Footer />
 				</div>
 			</body>
