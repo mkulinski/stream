@@ -34,7 +34,9 @@ export default function RootLayout({
 						<h1 className="text-xl pl-4">Baby Name Battle</h1>
 						<Navbar />
 					</header>
-					<main className="flex-grow">{children}</main>
+					<main className="flex-grow flex flex-col h-full min-h-screen">
+						{children}
+					</main>
 					<Footer />
 				</div>
 			</body>
