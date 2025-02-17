@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Course Force",
-	description: "Course to force the course of forcing",
+	title: "Baby Name Battle",
+	description: "Babies be battlin",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
 			>
 				<div className="min-h-screen flex flex-col">
 					<header className="bg-blue-500 text-white pl-4 flex flex-row justify-between items-center">
-						<h1 className="text-xl pl-4">Course Force</h1>
+						<h1 className="text-xl pl-4">Baby Name Battle</h1>
 						<Navbar />
 					</header>
 					<main className="flex-grow">{children}</main>
